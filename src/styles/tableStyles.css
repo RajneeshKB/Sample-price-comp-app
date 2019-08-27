@@ -1,0 +1,23 @@
+div.-sort-desc::after {
+    content: "\02191";
+    position: absolute;
+    right: 0;
+    top: 3px;
+    margin-right: 2px;
+}
+
+div.-sort-asc::after {
+    content: "\02193";
+    position: absolute;
+    right: 0;
+    top: 6px;
+    margin-right: 2px;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc{
+    box-shadow: none!important;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc{
+    box-shadow: none!important;
+}
